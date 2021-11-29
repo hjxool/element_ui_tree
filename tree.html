@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>树状组织结构</title>
+    <link rel="stylesheet" href="./tree.css">
+    <link rel="stylesheet" href="./module/index.css">
+</head>
+<body>
+    <div id="tree" style="width: 100vw;height: 100vh;">
+        <el-tree :data="years" :props="default_props" style="position: relative;top: 150px;left: 30%;" class="tree-line"></el-tree>
+    </div>
+
+    <script src="./module/jquery-3.6.0.js"></script>
+    <script src="./module/vue.js"></script>
+    <script src="./module/element-ui.js"></script>
+    <script src="./module/axios.min.js"></script>
+    <script src="./tree.js"></script>
+</body>
+</html>
